@@ -12,13 +12,17 @@ html body {
     
     box-shadow: 10px 10px 5px rgb(87, 86, 86);
     border-radius: 5px;
-    margin-top: 15em;
+    margin-top: 12em;
     margin-bottom: 0em;
 }
 
 .moreinfo {
     margin-bottom: -1em;
     padding: 120px;
+}
+
+.graph {
+    margin-left: 9%;
 }
 
 .tech {
