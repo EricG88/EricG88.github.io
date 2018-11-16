@@ -22,7 +22,7 @@ html body {
 }
 
 .graph {
-    margin-left: 9%;
+    margin-left: 0;
 }
 
 .tech {
@@ -77,6 +77,10 @@ html body {
 #interests {
     margin-bottom: 10em;
     padding: 50px;
+}
+
+.completelists1 {
+    padding: 20px;
 }
 
 
