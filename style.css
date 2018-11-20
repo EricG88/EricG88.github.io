@@ -22,7 +22,7 @@ html body {
 }
 
 .graph {
-    margin-left: 0;
+    padding-left: -10;
 }
 
 .tech {
@@ -41,6 +41,10 @@ html body {
     padding: 8em;
     margin-top: 9em;
     margin-bottom: 5em;
+}
+
+#snable {
+    padding: 20px;
 }
 
 
@@ -79,8 +83,8 @@ html body {
     padding: 50px;
 }
 
-.completelists1 {
-    padding: 20px;
+.completelist1 {
+    padding-left: 50px;
 }
 
 
@@ -88,3 +92,6 @@ html body {
     margin-bottom: 14em;
 }
 
+.projects {
+    padding: 20px;
+}
