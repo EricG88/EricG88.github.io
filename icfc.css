@@ -1,0 +1,119 @@
+html body {
+    font-family: 'Lato', sans-serif;
+    background: rgb(4, 24, 31);
+    
+     
+
+}
+
+.intro {
+    background: rgb(33, 32, 32);
+    padding: 18%;
+}
+
+.myersbox {
+    background: rgb(4, 24, 31);
+    height: 16em;
+    width: 100%;
+}
+
+#myers {
+    position: absolute;
+    left: 0%;
+    margin: 1em;
+    animation: slide 9s infinite;
+    transition: ease-in-out;
+
+    
+}
+
+@keyframes slide {
+    0% { left: -12%; }
+    100% { left: 100%; }
+}
+
+
+
+
+.rectangle {
+    height: 5px;
+    width: 100px;
+    background-color: rgb(60, 60, 60);
+    
+    
+}
+
+#jasonmask {
+    padding: 6em;
+    animation-name: spin;
+    animation-duration: 40000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 40000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 40000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: rotate(3600deg);
+    
+
+}
+
+
+
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+  .viewer {
+      margin-bottom: 10%;
+  }
+
+.blogcover {
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 75%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(228, 91, 17);
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+#cont:hover .overlay {
+  opacity: 1;
+}
+
+  .blogtext {
+      margin-left: 2em;
+  }
