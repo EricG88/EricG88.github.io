@@ -103,3 +103,150 @@ html body {
 .projects {
     padding: 20px;
 }
+
+
+
+/*MM CSS */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.service {
+    align-content: center;
+}
+
+.abouthome {
+    background-image: url("https://raw.githubusercontent.com/EricG88/EricG88.github.io/master/mmphoto/homebg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-color: rgb(34, 37, 41);
+    width: 100%;
+    padding: 4em;
+    font-size: 20px;
+    
+}
+
+.moreinfo {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.closehome {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.rectangle {
+    height: 5px;
+    width: 150px;
+    background-color: rgb(54, 54, 54);
+    
+    
+}
+
+.endhome {
+    background-image: url("https://raw.githubusercontent.com/EricG88/EricG88.github.io/master/mmphoto/oilbg1.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-color: rgb(34, 37, 41);
+    width: 100%;
+    padding: 4em;
+    font-size: 20px;
+}
+
+.portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+
+
+
+
+
+/* appointment */
+.form {
+margin-left: 35%;
+}
+
+/*.phoneicon {
+    margin-left: 35%;
+    padding: 5px;
+} */
+
+/*Oil */
+
+
+.oiltext {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.oilwork {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.oilbg {  
+    background-image: url("https://raw.githubusercontent.com/EricG88/EricG88.github.io/master/mmphoto/oilbg1.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-color: rgb(34, 37, 41);
+    width: 100%;
+    padding: 4em;
+    font-size: 20px;
+    
+}
+
+
+/*Complete Repair */
+.completelist1 {
+    margin-left: 0em;
+
+}
+
+
+/*Directions */
+
+
+.carousel {
+    width: 50%;
+    height: 50%;
+    margin-left: 24%;
+}
+
+/*Tires */
+.accent {
+    background-color: rgb(34, 37, 41);
+    width: 100%;
+    padding: 4em;
+    font-size: 20px;
+}
+
+/* Brakes */
+
+.braketext {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.brakeabout {
+    background-image: url("https://raw.githubusercontent.com/EricG88/EricG88.github.io/master/mmphoto/homebg1.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-color: rgb(34, 37, 41);
+    width: 100%;
+    padding: 4em;
+    font-size: 25px;
+    
+}
