@@ -52,7 +52,7 @@ html body {
     width: 100px;
     background-color: rgb(60, 60, 60);
     margin-top: 0em;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
     
     
 }
@@ -87,7 +87,7 @@ html body {
 }
 
 #interests {
-    margin-bottom: 13em;
+    margin-bottom: 10em;
     padding: 50px;
 }
 
