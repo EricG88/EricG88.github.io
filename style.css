@@ -132,6 +132,16 @@ html body {
     opacity: 0;
   }
 
-
-
-
+  .abouthome {
+    background-image: url("https://raw.githubusercontent.com/EricG88/EricG88.github.io/master/photo/facts.jpg");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-color: rgb(34, 37, 41);
+    width: 100%;
+    font-size: 20px;
+    padding: 7em;
+    margin-top: 9em;
+    margin-bottom: 5em;
+    
+}
